@@ -1,6 +1,6 @@
 ### Comments re run_analysis.R ###
 
-1. Assumes the required data files are in the working directory:
+1. Assumes the required data files are in the working directory:  
       a) X_test.txt  
       b) y_test.txt  
       c) subject_test.txt  
