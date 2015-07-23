@@ -1,4 +1,4 @@
-## Comments re run_analysis.R ##
+### Comments re run_analysis.R ###
 
 1. Assumes the required data files are in the working directory:
       a) X_test.txt  
@@ -10,11 +10,11 @@
       g) activity_labels.txt  
       h) features.txt  
 
-2. Must have the following packages installed: 
+2. Must have the following packages installed:  
       a) plyr  
       b) dplyr  
 
-3. Code (following numbering corresponds with the comments in the code itself)
+3. Code (following numbering corresponds with the comments in the code itself)  
       a) Reads the required data files from 1. into R  
       b) Combines the Test and Train data into one data set  
       c) Also includes Subject and Activity  
