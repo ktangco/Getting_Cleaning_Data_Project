@@ -1,6 +1,8 @@
-### Comments re run_analysis.R ###
+### Comments re cleaning the Samsung Smartphone Data ###
 
-1. Assumes the required data files are in the working directory:  
+1. This should be read in conjunction with CodeBook.md in this repository, which contains the methodology used to come up with the final data set 'tidy_data.txt'.
+
+2. Assumes the following required data files are in the working directory:  
       a) X_test.txt  
       b) y_test.txt  
       c) subject_test.txt  
@@ -10,11 +12,11 @@
       g) activity_labels.txt  
       h) features.txt  
 
-2. Must have the following packages installed:  
+3. Must have the following packages installed:  
       a) plyr  
       b) dplyr  
 
-3. Code (following numbering corresponds with the comments in the code itself)  
+4. Code (following numbering corresponds with the comments in the code itself)  
       a) Reads the required data files from 1. into R  
       b) Combines the Test and Train data into one data set  
       c) Also includes Subject and Activity  
