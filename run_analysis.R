@@ -46,4 +46,4 @@ write.table(GrpSummary,file="tidy_data.txt")
 
 ## Send a message to user saying you can view the file data ##
 message ("DATA HAS NOW BEEN CLEANED :D")
-message ("You can view the final data 'tidy_data.txt' using read.table() or View(), using their default settings")
+message ("You can view the final data 'tidy_data.txt' using read.table(), using default settings")
