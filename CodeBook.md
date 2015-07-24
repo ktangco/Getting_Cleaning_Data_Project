@@ -33,8 +33,9 @@ these measurements are the ones that are the 'true' means/standard deviations of
 
 Data Item   |   Label                    |     Values  
 ------------|----------------------------|-----------------------------  
-1           |   Subject                  | Numbers 1 to 30  
-2           |   Activity                 |      WALKING  
+1           |   Subject                  | Integers 1 to 30  
+2           |   Activity                 | Variables: 
+|||                                             WALKING  
 |||                                         WALKING_UPSTAIRS  
 |||                                         WALKING_DOWNSTAIRS  
 |||                                             SITTING  
@@ -43,8 +44,8 @@ Data Item   |   Label                    |     Values
 3           | tBodyAcc-mean()-X          | Items 3-68 are the mean of  
 4           | tBodyAcc-mean()-Y          | that particular measurement,   
 5           | tBodyAcc-mean()-Z          | as outlined in the original  
-6           | tGravityAcc-mean()-X       | data set  
-7           | tGravityAcc-mean()-Y       |  
+6           | tGravityAcc-mean()-X       | data set.  Units are as described  
+7           | tGravityAcc-mean()-Y       | in the original data set.
 8           | tGravityAcc-mean()-Z       |   
 9           | tBodyAccJerk-mean()-X      |   
 10          | tBodyAccJerk-mean()-Y      |   
