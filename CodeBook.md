@@ -24,9 +24,7 @@ these measurements are the ones that are the 'true' means/standard deviations of
 
 6. 'Reqd_Data' was then grouped by Subject and Activity. For each Subject and Activity, the mean of each of the selected measurements was taken, and then saved into a filed called 'tidy_data.txt'.  
 
-7. Can read 'tidy_data.txt' using the read_table() command using default settings.
-
-8. This is probably not the most efficient way to clean the data, but it does the job :)  Any suggestions for improvements are always welcome.
+7. Can read 'tidy_data.txt' using the read_table() command using default settings.  
   
   
 #### FINAL DATA: tidy_data.txt ####

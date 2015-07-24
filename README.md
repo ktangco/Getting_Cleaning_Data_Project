@@ -26,3 +26,5 @@
       g) Groups the selected data by Subject and Activity  
       h) Takes the mean of all the measurement data  
       i) Writes the final grouped data to a file 'tidy_data.txt'  
+      
+5. This is probably not the most efficient way to clean the data, but it does the job :)  Any suggestions for improvements are always welcome.
